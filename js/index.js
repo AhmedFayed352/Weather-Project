@@ -38,7 +38,7 @@ async function search(city) {
 function displaytoday(a, t) {
     if(null != t) {
         var e = new Date(t.last_updated.replace(" ", "T"));
-        let cartona1 = `<div class="forecast col-md-4">
+        let cartona1 = `<div class="forecast col-md-6 col-lg-4">
                     <div class="for-bg rounded">
                         <div class="forecast-header">
                             <div class="day">${days[e.getDay()]}</div>
@@ -68,7 +68,7 @@ function displaytoday(a, t) {
 function displayTomorrow(a) {
     let cartona2 = "";
     for(let e = 1; e<a.length; e++) {
-      cartona2 += `<div class="forecast col-md-4">
+      cartona2 += `<div class="forecast col-md-6 col-lg-4">
                 <div class="for-bg h-100 rounded">
                     <div class="forecast-header justify-content-center">
                         <div class="day">${days[new Date(a[e].date.replace(" ", "T")).getDay()]}</div>

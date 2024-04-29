@@ -40,7 +40,7 @@ nav ul li {
 form {
   margin-bottom: 70px;
 }
-#search {
+.search {
   width: 100%;
   padding: 20px 50px 20px 20px;
   background: #1e202b;
@@ -49,7 +49,7 @@ form {
   outline: none;
   border-radius: 30px;
 }
-#submit {
+.submit {
   padding: 0 40px;
   border: none;
   background: #009ad8;
@@ -60,7 +60,7 @@ form {
   right: 5px;
   bottom: 5px;
 }
-#submit:hover {
+.submit:hover {
   background: #ffffffe0;
   color: #000;
 }
